@@ -12,7 +12,7 @@ function creatGrid(size) {
     div.classList.add("square");
     div.style.height = `${divSize}px`;
     div.style.width = `${divSize}px`;
-    div.addEventListener("mousemove", () => {
+    div.addEventListener("mouseover", () => {
       div.style.backgroundColor = getRandomColor();
     });
     container.appendChild(div);
